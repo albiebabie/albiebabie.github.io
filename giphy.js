@@ -9,7 +9,6 @@ xhr.done(function(data) {
     img.src = gif.images.fixed_width_downsampled.url;
     li.appendChild(img);
     document.getElementById("js-gifs-list").appendChild(li);
-    console.log(gif.images);
   });
 });
 
