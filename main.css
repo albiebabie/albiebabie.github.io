@@ -79,13 +79,20 @@ svg {
 }
 
 .menu--mobile {
+  background: #54716a;
   padding: 10px;
   display: block;
 }
 .menu--mobile ul {
   list-style: none;
+  color: white;
+  padding: 10px;
+  margin: 0px;
 }
-.menu--mobile ul a:hover {
+.menu--mobile ul li {
+  padding: 5px;
+}
+.menu--mobile ul li a:hover {
   color: white;
 }
 

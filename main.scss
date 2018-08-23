@@ -100,12 +100,19 @@ svg {
 }
 
 .menu--mobile {
+  background: #54716a;
   padding: 10px;
   display: block;
   ul {
     list-style: none;
-    a:hover {
-      color: invert($color: #000000);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    li {
+      padding: 5px;
+      a:hover {
+        color: invert($color: #000000);
+      }
     }
   }
 }
