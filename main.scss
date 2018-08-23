@@ -98,6 +98,17 @@ svg {
 
 .menu--mobile {
     padding: 10px;
+    display: block;
+    ul {
+        list-style: none;
+        a:hover {
+            color: invert($color: #000000)
+        }
+    }
+}
+
+.menu--mobile--hidden {
+    display: none;
 }
 
 .menu--desktop {

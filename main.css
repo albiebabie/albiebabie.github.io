@@ -76,6 +76,17 @@ svg {
 
 .menu--mobile {
   padding: 10px;
+  display: block;
+}
+.menu--mobile ul {
+  list-style: none;
+}
+.menu--mobile ul a:hover {
+  color: white;
+}
+
+.menu--mobile--hidden {
+  display: none;
 }
 
 .menu--desktop {
