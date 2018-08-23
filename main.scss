@@ -195,9 +195,40 @@ svg {
 .gifs-list {
   list-style: none;
   padding: 0px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    background: #f1f1f1;
+    flex: 1 0 50%;
+    margin: 5px;
+    // height: 200px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }
 
-img {
-  width: 100%;
-  height: auto;
+@media only screen and (min-width: 600px) {
+  .gifs-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      flex: 1 0 50%;
+      margin: 5px;
+      width: 100%;
+      height: auto;
+
+      img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
 }

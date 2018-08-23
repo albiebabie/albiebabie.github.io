@@ -173,11 +173,40 @@ svg {
 .gifs-list {
   list-style: none;
   padding: 0px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-img {
+.gifs-list li {
+  background: #f1f1f1;
+  flex: 1 0 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.gifs-list li img {
   width: 100%;
   height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .gifs-list {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gifs-list li {
+    flex: 1 0 50%;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .gifs-list li img {
+    width: auto;
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
