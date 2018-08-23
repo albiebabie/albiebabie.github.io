@@ -8,7 +8,11 @@ html body {
   padding: 0;
   margin: 0;
 }
-html body h1, html body h2, html body h3, html body h4, html body h5 {
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5 {
   font-family: "Hanalei Fill", cursive;
   margin: 0px;
 }
@@ -157,6 +161,16 @@ svg {
 
 .flex-container--col-to-row {
   flex-direction: column;
+}
+
+.gifs-list {
+  list-style: none;
+  padding: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
