@@ -130,6 +130,11 @@ svg {
             line-height: 100px;
         }
     }
+    .burger-icon {
+        // display: block;
+        // height: 30px;
+        display: none;
+    }
     .menu--mobile {
         display: none;
     }
@@ -145,11 +150,6 @@ svg {
     .flex-container--col-to-row {
         flex-direction: row;
     }
-}
-
-.burger-icon {
-    display: block;
-    height: 30px;
 }
 
 .alternate-colour {

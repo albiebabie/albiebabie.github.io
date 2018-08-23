@@ -105,6 +105,10 @@ svg {
     line-height: 100px;
   }
 
+  .burger-icon {
+    display: none;
+  }
+
   .menu--mobile {
     display: none;
   }
@@ -125,11 +129,6 @@ svg {
     flex-direction: row;
   }
 }
-.burger-icon {
-  display: block;
-  height: 30px;
-}
-
 .alternate-colour {
   color: #608e83;
 }
