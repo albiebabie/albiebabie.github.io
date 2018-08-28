@@ -1,5 +1,5 @@
 var GIPHY_KEY = config.GIPHY_KEY;
-var xhr = $.get("http://api.giphy.com/v1/gifs/trending?api_key=" + GIPHY_KEY + "&limit=10");
+var xhr = $.get("https://api.giphy.com/v1/gifs/trending?api_key=" + GIPHY_KEY + "&limit=10");
 
 xhr.done(function(data) {
   data.data.forEach((gif, i) => {
