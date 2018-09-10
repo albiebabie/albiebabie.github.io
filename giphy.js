@@ -7,6 +7,7 @@ xhr.done(function(data) {
     var img = document.createElement("IMG")
     img.textContent = ++i;
     img.src = gif.images.fixed_width_downsampled.url;
+    img.alt = gif.title;
     li.appendChild(img);
     document.getElementById("js-gifs-list").appendChild(li);
   });
