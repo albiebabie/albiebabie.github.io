@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,13 @@
   <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
   <script src="nav.js"></script>
 </head>
+
 <body>
   <nav class="flex-container">
     <div class="flex-container flex-center">
-      <a href="index.html" aria-label="Home Link"><h1>Welcome to the Internets</h1></a>
+      <a href="index.html" aria-label="Home Link">
+        <h1>Welcome to the Internets</h1>
+      </a>
     </div>
     <div class="burger-icon flex-container flex-center">
       <a href="#" id="js-burger-icon" aria-label="Mobile Nav Toggle Button">
@@ -49,22 +53,23 @@
       <ul>
         <li><a href="index.html" aria-label="Home Page Link">Home Page Link</a></li>
         <li><a href="trending.html" aria-label="GIFs Page Link">GIFs</a></li>
-        <li><a href="#" aria-label="Link Doesn't Go Anywhere, please don't use">Violin Sales</a></li>
+        <li><a href="#" aria-label="Link Doesn't Go Anywhere, please don't use" onclick="alert('LOL we don\'t actually sell violins here :P')">Violin Sales</a></li>
       </ul>
     </div>
   </nav>
   <div id="js-nav" class="menu--mobile menu--mobile--hidden">
     <ul>
-      <li><a href="index.html">Home Page Link</a></li>
-      <li><a href="trending.html">GIFs</a></li>
-      <li><a href="#" onclick="alert('LOL we don\'t actually sell violins here :P')">Violin Sales</a></li>
+      <li><a href="index.html" aria-label="Home Page Link Mobile">Home Page Link</a></li>
+      <li><a href="trending.html" aria-label="GIFs Page Link Mobile">GIFs</a></li>
+      <li><a href="#" aria-label="Link Doesn't Go Anywhere, please don't use">Violin Sales</a></li>
     </ul>
   </div>
   <main>
     <div class="flex-container flex-container--col-to-row">
       <section class="section--image">
         <div class="img-container flex-container flex-center">
-          <img class="top-image" src="GingerbreadManTransparent.png" alt="Image of the Gingerbread Man from Shrek holding a large candy stick." onclick="console.log(`You'll never catch me`);">
+          <img class="top-image" src="GingerbreadManTransparent.png" alt="Image of the Gingerbread Man from Shrek holding a large candy stick."
+            onclick="console.log(`You'll never catch me`);">
         </div>
       </section>
       <section class="section--intro">
@@ -162,4 +167,5 @@
     </section>
   </main>
 </body>
+
 </html>
