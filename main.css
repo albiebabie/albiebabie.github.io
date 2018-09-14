@@ -41,10 +41,23 @@ html body nav div {
 html body nav ul {
   list-style: none;
 }
+html body select {
+  width: 100%;
+}
+html body select option {
+  width: 100px;
+  text-overflow: ellipsis;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+}
 html body main {
-  padding: 50px 10px 0 10px;
+  padding: 0;
   color: #a96666;
   height: 90vh;
+}
+html body main section:first-of-type {
+  margin-bottom: 0;
 }
 html body main section {
   padding: 0px 10px;
@@ -62,6 +75,19 @@ html body main section header::after {
   height: 5px;
   width: 100%;
   background: #c7c7c7;
+}
+@media only screen and (min-width: 600px) {
+  html body main {
+    padding: 50px 10px 0 10px;
+  }
+  html body img {
+    height: 500px;
+    width: auto;
+  }
+}
+
+img {
+  width: 100%;
 }
 
 .flex-container {
@@ -185,7 +211,7 @@ svg {
   justify-content: center;
 }
 .gifs-list li img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -202,10 +228,6 @@ svg {
     margin: 5px;
     width: 100%;
     height: auto;
-  }
-  .gifs-list li img {
-    width: auto;
-    height: 100%;
   }
 }
 
